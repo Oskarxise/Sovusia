@@ -31,12 +31,29 @@
           "src/main/java/net/mcreator/savusichka/block/SdsdsdsBlock.java"
         ]
       }
+    },
+    {
+      "name": "Gjxcygfj",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gjxcygfj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/block/GjxcygfjBlock.java",
+          "src/main/resources/assets/savusichka/models/item/gjxcygfj.json",
+          "src/main/resources/assets/savusichka/blockstates/gjxcygfj.json",
+          "src/main/resources/assets/savusichka/models/block/gjxcygfj.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.savusichka.gjxcygfj": "Gjxcygfj",
       "block.savusichka.blcok": "Blcok",
       "block.savusichka.sdsdsds": "Sdsdsds"
     }
