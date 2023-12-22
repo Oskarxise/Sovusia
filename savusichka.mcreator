@@ -15,13 +15,30 @@
           "src/main/resources/assets/savusichka/blockstates/blcok.json"
         ]
       }
+    },
+    {
+      "name": "Sdsdsds",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdsdsds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/blockstates/sdsdsds.json",
+          "src/main/resources/assets/savusichka/models/block/sdsdsds.json",
+          "src/main/resources/assets/savusichka/models/item/sdsdsds.json",
+          "src/main/java/net/mcreator/savusichka/block/SdsdsdsBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.savusichka.blcok": "Blcok"
+      "block.savusichka.blcok": "Blcok",
+      "block.savusichka.sdsdsds": "Sdsdsds"
     }
   },
   "foldersRoot": {
