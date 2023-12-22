@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "savusichka:blocks/ddfdf",
+    "particle": "savusichka:blocks/ddfdf"
+  }
+}
