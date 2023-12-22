@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "Blcok",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blcok",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/blcok.json",
+          "src/main/java/net/mcreator/savusichka/block/BlcokBlock.java",
+          "src/main/resources/assets/savusichka/models/block/blcok.json",
+          "src/main/resources/assets/savusichka/blockstates/blcok.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.savusichka.blcok": "Blcok"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "savusichka",
+    "modName": "savusichka",
+    "version": "1.0.0",
+    "author": "HOME, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.savusichka",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
