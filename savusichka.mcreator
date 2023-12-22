@@ -1,62 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Blcok",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blcok",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/savusichka/models/item/blcok.json",
-          "src/main/java/net/mcreator/savusichka/block/BlcokBlock.java",
-          "src/main/resources/assets/savusichka/models/block/blcok.json",
-          "src/main/resources/assets/savusichka/blockstates/blcok.json"
-        ]
-      }
-    },
-    {
-      "name": "Sdsdsds",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sdsdsds",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/savusichka/blockstates/sdsdsds.json",
-          "src/main/resources/assets/savusichka/models/block/sdsdsds.json",
-          "src/main/resources/assets/savusichka/models/item/sdsdsds.json",
-          "src/main/java/net/mcreator/savusichka/block/SdsdsdsBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Gjxcygfj",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gjxcygfj",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/savusichka/block/GjxcygfjBlock.java",
-          "src/main/resources/assets/savusichka/models/item/gjxcygfj.json",
-          "src/main/resources/assets/savusichka/blockstates/gjxcygfj.json",
-          "src/main/resources/assets/savusichka/models/block/gjxcygfj.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "block.savusichka.gjxcygfj": "Gjxcygfj",
-      "block.savusichka.blcok": "Blcok",
-      "block.savusichka.sdsdsds": "Sdsdsds"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
