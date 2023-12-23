@@ -8,10 +8,11 @@
       "registry_name": "neutroniumcrystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/savusichka/item/NeutroniumcrystalItem.java",
-          "src/main/resources/assets/savusichka/models/item/neutroniumcrystal.json"
+          "src/main/resources/assets/savusichka/models/item/neutroniumcrystal.json",
+          "src/main/java/net/mcreator/savusichka/item/NeutroniumcrystalItem.java"
         ]
-      }
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -23,7 +24,24 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Singularities",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "savusichka",
