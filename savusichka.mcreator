@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Neutroniumcrystal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutroniumcrystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/NeutroniumcrystalItem.java",
+          "src/main/resources/assets/savusichka/models/item/neutroniumcrystal.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.savusichka.neutroniumcrystal": "Neutroniumcrystal"
+    }
   },
   "foldersRoot": {
     "name": "~",
