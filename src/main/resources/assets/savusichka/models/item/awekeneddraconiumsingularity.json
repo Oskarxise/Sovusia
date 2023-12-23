@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "savusichka:items/awekened_draconium_singularity"
+  }
+}

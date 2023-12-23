@@ -3,6 +3,7 @@
     {
       "name": "Neutroniumcrystal",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcrystal",
@@ -13,13 +14,29 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Awekeneddraconiumsingularity",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awekeneddraconiumsingularity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json"
+        ]
+      },
+      "path": "~/Singularities"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.savusichka.neutroniumcrystal": "Neutroniumcrystal"
+      "item.savusichka.neutroniumcrystal": "Neutroniumcrystal",
+      "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity"
     }
   },
   "foldersRoot": {
