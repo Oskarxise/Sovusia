@@ -172,10 +172,16 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.savusichka.neutroniumcrystal": "Нейтрокристалл"
+      "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
+      "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
+      "item.savusichka.neutroniumcore": "Neutronium core",
+      "itemGroup.tabsovusiatab": "Sovusia"
     },
     "en_us": {
-      "item.savusichka.neutroniumcrystal": "Neutronium crystal"
+      "item.savusichka.neutroniumcrystal": "Neutronium crystal",
+      "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
+      "item.savusichka.neutroniumcore": "Neutronium core",
+      "itemGroup.tabsovusiatab": "Sovusia"
     }
   },
   "foldersRoot": {
