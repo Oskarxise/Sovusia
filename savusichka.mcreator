@@ -3,7 +3,6 @@
     {
       "name": "Neutroniumcrystal",
       "type": "item",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcrystal",
@@ -16,14 +15,32 @@
       "path": "~/Items"
     },
     {
-      "name": "Sovusiatab",
-      "type": "tab",
+      "name": "Fusionneutroncore",
+      "type": "recipe",
+      "sortid": 7,
       "compiles": true,
-      "locked_code": false,
-      "registry_name": "sovusiatab",
+      "locked_code": true,
+      "registry_name": "fusionneutroncore",
       "metadata": {
-        "files": []
-      }
+        "files": [
+          "src/main/resources/data/savusichka/recipes/fusionneutroncore.json"
+        ]
+      },
+      "path": "~/Recipes/Draconic"
+    },
+    {
+      "name": "CraftChaoticenergycore",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "craft_chaoticenergycore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/craft_chaoticenergycore.json"
+        ]
+      },
+      "path": "~/Recipes/Draconic"
     },
     {
       "name": "Createshaftrecipe",
@@ -40,29 +57,25 @@
       "path": "~/Recipes/create"
     },
     {
-      "name": "Createmillstone",
-      "type": "recipe",
-      "sortid": 1,
+      "name": "Sovusiatab",
+      "type": "tab",
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "createmillstone",
+      "locked_code": false,
+      "registry_name": "sovusiatab",
       "metadata": {
-        "files": [
-          "src/main/resources/data/savusichka/recipes/createmillstone.json"
-        ]
-      },
-      "path": "~/Recipes/create"
+        "files": []
+      }
     },
     {
-      "name": "Createmechanicalpress",
+      "name": "Createandesitealloy",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 5,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "createmechanicalpress",
+      "registry_name": "createandesitealloy",
       "metadata": {
         "files": [
-          "src/main/resources/data/savusichka/recipes/createmechanicalpress.json"
+          "src/main/resources/data/savusichka/recipes/createandesitealloy.json"
         ]
       },
       "path": "~/Recipes/create"
@@ -82,20 +95,6 @@
       "path": "~/Recipes/create"
     },
     {
-      "name": "Createandesitealloy",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "createandesitealloy",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/savusichka/recipes/createandesitealloy.json"
-        ]
-      },
-      "path": "~/Recipes/create"
-    },
-    {
       "name": "Neitroniumcrystall",
       "type": "recipe",
       "sortid": 6,
@@ -108,20 +107,6 @@
         ]
       },
       "path": "~/Recipes/Sovusia"
-    },
-    {
-      "name": "Fusionneutroncore",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "fusionneutroncore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/savusichka/recipes/fusionneutroncore.json"
-        ]
-      },
-      "path": "~/Recipes/Draconic"
     },
     {
       "name": "Neutroniumcore",
@@ -139,45 +124,62 @@
       "path": "~/Items"
     },
     {
-      "name": "CraftChaoticenergycore",
+      "name": "Createmechanicalpress",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 3,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "craft_chaoticenergycore",
+      "registry_name": "createmechanicalpress",
       "metadata": {
         "files": [
-          "src/main/resources/data/savusichka/recipes/craft_chaoticenergycore.json"
+          "src/main/resources/data/savusichka/recipes/createmechanicalpress.json"
         ]
       },
-      "path": "~/Recipes/Draconic"
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Createmillstone",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createmillstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createmillstone.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Awekeneddraconiumsingularity",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awekeneddraconiumsingularity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json",
+          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java"
+        ]
+      },
+      "path": "~/Singularities"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
-      "item.savusichka.neutroniumcore": "Neutronium core",
-      "itemGroup.tabsovusiatab": "Совусия"
+      "item.savusichka.neutroniumcrystal": "Нейтрокристалл"
     },
     "en_us": {
-      "item.savusichka.neutroniumcrystal": "Neutronium crystal",
-      "item.savusichka.neutroniumcore": "Neutronium core",
-      "itemGroup.tabsovusiatab": "Sovusia"
+      "item.savusichka.neutroniumcrystal": "Neutronium crystal"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Singularities",
-        "children": []
-      },
-      {
-        "name": "Blocks",
-        "children": []
-      },
       {
         "name": "Items",
         "children": []
@@ -186,7 +188,7 @@
         "name": "Recipes",
         "children": [
           {
-            "name": "blocking",
+            "name": "Sovusia",
             "children": []
           },
           {
@@ -194,14 +196,22 @@
             "children": []
           },
           {
-            "name": "Sovusia",
+            "name": "Draconic",
             "children": []
           },
           {
-            "name": "Draconic",
+            "name": "blocking",
             "children": []
           }
         ]
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Singularities",
+        "children": []
       }
     ]
   },
