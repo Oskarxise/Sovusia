@@ -3,6 +3,7 @@
     {
       "name": "Neutroniumcrystal",
       "type": "item",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcrystal",
