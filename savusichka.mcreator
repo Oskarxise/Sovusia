@@ -166,6 +166,46 @@
         ]
       },
       "path": "~/Singularities"
+    },
+    {
+      "name": "Enegry",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enegry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/command/EnegryCommand.java"
+        ]
+      },
+      "path": "~/commands"
+    },
+    {
+      "name": "Energycommand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energycommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/procedures/EnergycommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/commands"
     }
   ],
   "variable_elements": [],
@@ -179,7 +219,7 @@
     },
     "en_us": {
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
-      "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
+      "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
       "itemGroup.tabsovusiatab": "Sovusia"
     }
@@ -205,10 +245,6 @@
           {
             "name": "Draconic",
             "children": []
-          },
-          {
-            "name": "blocking",
-            "children": []
           }
         ]
       },
@@ -219,6 +255,10 @@
       {
         "name": "Singularities",
         "children": []
+      },
+      {
+        "name": "commands",
+        "children": []
       }
     ]
   },
@@ -226,7 +266,7 @@
     "modid": "savusichka",
     "modName": "savusichka",
     "version": "1.0.0",
-    "author": "HOME, MCreator",
+    "author": "Oskarxise, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

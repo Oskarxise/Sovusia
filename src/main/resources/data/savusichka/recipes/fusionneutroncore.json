@@ -4,37 +4,34 @@
     "item": "savusichka:neutroniumcore"
   },
   "catalyst": {
-    "item": "draconicevolution:large_chaos_frag"
+    "item": "savusichka:neutroniumcrystal"
   },
   "total_energy": 550000000,
   "tier": "CHAOTIC",
   "ingredients": [
     {
-      "item": "draconicevolution:draconium_core"
-    },
-    {
-      "item": "draconicevolution:draconium_core"
-    },
-    {
-      "item": "draconicevolution:wywern_core"
-    },
-    {
-      "item": "draconicevolution:wywern_core"
-    },
-    {
       "item": "draconicevolution:awakened_core"
     },
     {
       "item": "draconicevolution:awakened_core"
     },
     {
-      "item": "draconicevolution:chaotic_core"
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:wyvern_core"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
     },
     {
       "item": "draconicevolution:chaotic_core"
     },
     {
-      "item": "savusichka:neutroniumcrystal"
+      "item": "draconicevolution:chaotic_core"
     }
   ]
 }
