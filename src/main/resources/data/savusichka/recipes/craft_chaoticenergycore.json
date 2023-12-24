@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "draconicevolution:medium_chaos_frag"
+    },
+    "1": {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    "2": {
+      "item": "draconicevolution:medium_chaos_frag"
+    },
+    "3": {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    "4": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "5": {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    "6": {
+      "item": "draconicevolution:medium_chaos_frag"
+    },
+    "7": {
+      "item": "draconicevolution:draconic_energy_core"
+    },
+    "8": {
+      "item": "draconicevolution:medium_chaos_frag"
+    }
+  },
+  "result": {
+    "item": "draconicevolution:chaotic_energy_core",
+    "count": 1
+  }
+}

@@ -3,6 +3,7 @@
     {
       "name": "Neutroniumcrystal",
       "type": "item",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcrystal",
@@ -13,13 +14,157 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Sovusiatab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sovusiatab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Createshaftrecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createshaftrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createshaftrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Createmillstone",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createmillstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createmillstone.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Createmechanicalpress",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createmechanicalpress",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createmechanicalpress.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Createmechanicalmixer",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createmechanicalmixer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createmechanicalmixer.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Createandesitealloy",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createandesitealloy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createandesitealloy.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Neitroniumcrystall",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "neitroniumcrystall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/neitroniumcrystall.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Fusionneutroncore",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fusionneutroncore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/fusionneutroncore.json"
+        ]
+      },
+      "path": "~/Recipes/Draconic"
+    },
+    {
+      "name": "Neutroniumcore",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutroniumcore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/neutroniumcore.json",
+          "src/main/java/net/mcreator/savusichka/item/NeutroniumcoreItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CraftChaoticenergycore",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "craft_chaoticenergycore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/craft_chaoticenergycore.json"
+        ]
+      },
+      "path": "~/Recipes/Draconic"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
+    "ru_ru": {
+      "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
+      "item.savusichka.neutroniumcore": "Neutronium core",
+      "itemGroup.tabsovusiatab": "Совусия"
+    },
     "en_us": {
-      "item.savusichka.neutroniumcrystal": "Neutroniumcrystal"
+      "item.savusichka.neutroniumcrystal": "Neutronium crystal",
+      "item.savusichka.neutroniumcore": "Neutronium core",
+      "itemGroup.tabsovusiatab": "Sovusia"
     }
   },
   "foldersRoot": {
@@ -39,7 +184,24 @@
       },
       {
         "name": "Recipes",
-        "children": []
+        "children": [
+          {
+            "name": "blocking",
+            "children": []
+          },
+          {
+            "name": "create",
+            "children": []
+          },
+          {
+            "name": "Sovusia",
+            "children": []
+          },
+          {
+            "name": "Draconic",
+            "children": []
+          }
+        ]
       }
     ]
   },

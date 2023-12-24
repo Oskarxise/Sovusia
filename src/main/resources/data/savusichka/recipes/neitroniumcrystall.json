@@ -1,0 +1,14 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "avaritia:neutronium_ingot"},
+	{"item": "avaritia:neutronium_ingot"},
+	{"item": "avaritia:iron_singularity"},
+	{"item": "powah:crystal_nitro"}
+  ],
+  "energy": 10000000,
+  "result": {
+	"item": "savusichka:neutroniumcrystal",
+	"count": 10
+  }
+}

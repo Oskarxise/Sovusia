@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "create:cogwheel"
+    },
+    "3": {
+      "item": "create:zinc_ingot"
+    },
+    "4": {
+      "item": "create:andesite_casing"
+    },
+    "5": {
+      "item": "create:zinc_ingot"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "create:andesite_alloy_block"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "create:millstone",
+    "count": 1
+  }
+}
