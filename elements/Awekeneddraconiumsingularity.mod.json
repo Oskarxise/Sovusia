@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "awekened_draconium_singularity",
+    "texture": "awekened_draconium_sigularity",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
     "name": "Awekened draconium singularity",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Sovusiatab"
     },
     "stackSize": 64,
     "enchantability": 0,

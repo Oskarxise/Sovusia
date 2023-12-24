@@ -161,8 +161,8 @@
       "registry_name": "awekeneddraconiumsingularity",
       "metadata": {
         "files": [
-          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json",
-          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java"
+          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json"
         ]
       },
       "path": "~/Singularities"

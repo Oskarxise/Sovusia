@@ -17,7 +17,7 @@ public class SavusichkaModTabs {
 		TAB_SOVUSIATAB = new CreativeModeTab("tabsovusiatab") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(SavusichkaModItems.NEUTRONIUMCRYSTAL.get());
+				return new ItemStack(SavusichkaModItems.INFINITYCORE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
