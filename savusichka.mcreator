@@ -206,6 +206,21 @@
         ]
       },
       "path": "~/commands"
+    },
+    {
+      "name": "Infinitycore",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitycore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/infinitycore.json",
+          "src/main/java/net/mcreator/savusichka/item/InfinitycoreItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -215,13 +230,15 @@
       "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
-      "itemGroup.tabsovusiatab": "Sovusia"
+      "itemGroup.tabsovusiatab": "Sovusia",
+      "item.savusichka.infinitycore": "Infinity core"
     },
     "en_us": {
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
-      "itemGroup.tabsovusiatab": "Sovusia"
+      "itemGroup.tabsovusiatab": "Sovusia",
+      "item.savusichka.infinitycore": "Infinity core"
     }
   },
   "foldersRoot": {

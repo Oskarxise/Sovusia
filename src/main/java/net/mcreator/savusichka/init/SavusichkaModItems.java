@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
+import net.mcreator.savusichka.item.InfinitycoreItem;
 import net.mcreator.savusichka.item.AwekeneddraconiumsingularityItem;
 import net.mcreator.savusichka.SavusichkaMod;
 
@@ -20,4 +21,5 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> AWEKENEDDRACONIUMSINGULARITY = REGISTRY.register("awekeneddraconiumsingularity", () -> new AwekeneddraconiumsingularityItem());
 	public static final RegistryObject<Item> NEUTRONIUMCORE = REGISTRY.register("neutroniumcore", () -> new NeutroniumcoreItem());
 	public static final RegistryObject<Item> NEUTRONIUMCRYSTAL = REGISTRY.register("neutroniumcrystal", () -> new NeutroniumcrystalItem());
+	public static final RegistryObject<Item> INFINITYCORE = REGISTRY.register("infinitycore", () -> new InfinitycoreItem());
 }
