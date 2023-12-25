@@ -246,6 +246,21 @@
         ]
       },
       "path": "~/Recipes/Draconic"
+    },
+    {
+      "name": "Draconiumsingularity",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "draconiumsingularity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/DraconiumsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/draconiumsingularity.json"
+        ]
+      },
+      "path": "~/Items/Singularities"
     }
   ],
   "variable_elements": [],
@@ -255,6 +270,7 @@
       "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core"
@@ -263,6 +279,7 @@
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core"
