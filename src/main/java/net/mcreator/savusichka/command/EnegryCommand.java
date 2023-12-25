@@ -32,7 +32,7 @@ public class EnegryCommand {
 				entity = FakePlayerFactory.getMinecraft(world);
 			Direction direction = entity.getDirection();
 
-			EnergycommandProcedure.execute(world, arguments, entity);
+			EnergycommandProcedure.execute(world, arguments);
 			return 0;
 		}))));
 	}

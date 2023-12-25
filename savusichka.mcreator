@@ -196,10 +196,6 @@
             "type": "cmdcontext"
           },
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -236,6 +232,20 @@
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Fusioninfinitycore",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fusioninfinitycore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/fusioninfinitycore.json"
+        ]
+      },
+      "path": "~/Recipes/Draconic"
     }
   ],
   "variable_elements": [],

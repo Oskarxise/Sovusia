@@ -1,0 +1,49 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "result": {
+    "item": "savusichka:infinitycore"
+  },
+  "catalyst": {
+    "item": "savusichka:neutroniumcore"
+  },
+  "total_energy": 10000000000,
+  "tier": "CHAOTIC",
+  "ingredients": [
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": "draconicevolution:chaotic_energy_core"
+    },
+    {
+      "item": "avaritia:infinity_block"
+    },
+    {
+      "item": "avaritia:infinity_block"
+    },
+    {
+      "item": "malum:eldritch_spirit"
+    },
+    {
+      "item": "malum:eldritch_spirit"
+    },
+    {
+      "item": "avaritia:netherite_singularity"
+    },
+    {
+      "item": "avaritia:netherite_singularity"
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot"
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot"
+    },
+    {
+      "item": "savusichka:awekeneddraconiumsingularity"
+    },
+    {
+      "item": "savusichka:alphstalsingularity"
+    }
+  ]
+}
