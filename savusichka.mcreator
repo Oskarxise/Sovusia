@@ -165,7 +165,7 @@
           "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json"
         ]
       },
-      "path": "~/Singularities"
+      "path": "~/Items/Singularities"
     },
     {
       "name": "Enegry",
@@ -221,6 +221,21 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Alphstalsingularity",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphstalsingularity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/AlphstalsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/alphstalsingularity.json"
+        ]
+      },
+      "path": "~/Items/Singularities"
     }
   ],
   "variable_elements": [],
@@ -230,6 +245,7 @@
       "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core"
     },
@@ -237,6 +253,7 @@
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core"
     }
@@ -246,7 +263,12 @@
     "children": [
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Singularities",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Recipes",
@@ -267,10 +289,6 @@
       },
       {
         "name": "Blocks",
-        "children": []
-      },
-      {
-        "name": "Singularities",
         "children": []
       },
       {
