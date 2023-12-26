@@ -16,6 +16,7 @@ import net.mcreator.savusichka.item.NeutroniumcoreItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
 import net.mcreator.savusichka.item.DraconiumsingularityItem;
 import net.mcreator.savusichka.item.AwekeneddraconiumsingularityItem;
+import net.mcreator.savusichka.item.AndesitesingularityItem;
 import net.mcreator.savusichka.item.AlphstalsingularityItem;
 import net.mcreator.savusichka.SavusichkaMod;
 
@@ -28,4 +29,5 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> ALPHSTALSINGULARITY = REGISTRY.register("alphstalsingularity", () -> new AlphstalsingularityItem());
 	public static final RegistryObject<Item> DRACONIUMSINGULARITY = REGISTRY.register("draconiumsingularity", () -> new DraconiumsingularityItem());
 	public static final RegistryObject<Item> TERRASTELLSINGULARITY = REGISTRY.register("terrastellsingularity", () -> new TerrastellsingularityItem());
+	public static final RegistryObject<Item> ANDESITESINGULARITY = REGISTRY.register("andesitesingularity", () -> new AndesitesingularityItem());
 }

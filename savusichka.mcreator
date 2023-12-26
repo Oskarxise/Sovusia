@@ -374,6 +374,21 @@
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Andesitesingularity",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesitesingularity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/andesitesingularity.json",
+          "src/main/java/net/mcreator/savusichka/item/AndesitesingularityItem.java"
+        ]
+      },
+      "path": "~/Items/Singularities"
     }
   ],
   "variable_elements": [],
@@ -387,7 +402,8 @@
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
-      "item.savusichka.terrastellsingularity": "Terrastellsingularity"
+      "item.savusichka.terrastellsingularity": "Terrastellsingularity",
+      "item.savusichka.andesitesingularity": "Andesitesingularity"
     },
     "en_us": {
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
@@ -397,7 +413,8 @@
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
-      "item.savusichka.terrastellsingularity": "Terrastellsingularity"
+      "item.savusichka.terrastellsingularity": "Terrastellsingularity",
+      "item.savusichka.andesitesingularity": "Andesitesingularity"
     }
   },
   "foldersRoot": {
