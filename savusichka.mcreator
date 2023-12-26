@@ -359,6 +359,21 @@
         ]
       },
       "path": "~/Recipes/Sovusia/singularties"
+    },
+    {
+      "name": "Terrastellsingularity",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terrastellsingularity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/terrastellsingularity.json",
+          "src/main/java/net/mcreator/savusichka/item/TerrastellsingularityItem.java"
+        ]
+      },
+      "path": "~/Items/Singularities"
     }
   ],
   "variable_elements": [],
@@ -371,7 +386,8 @@
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
-      "item.savusichka.infinitycore": "Infinity core"
+      "item.savusichka.infinitycore": "Infinity core",
+      "item.savusichka.terrastellsingularity": "Terrastellsingularity"
     },
     "en_us": {
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
@@ -380,7 +396,8 @@
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
-      "item.savusichka.infinitycore": "Infinity core"
+      "item.savusichka.infinitycore": "Infinity core",
+      "item.savusichka.terrastellsingularity": "Terrastellsingularity"
     }
   },
   "foldersRoot": {

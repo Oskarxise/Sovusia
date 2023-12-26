@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.savusichka.item.TerrastellsingularityItem;
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
@@ -26,4 +27,5 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> INFINITYCORE = REGISTRY.register("infinitycore", () -> new InfinitycoreItem());
 	public static final RegistryObject<Item> ALPHSTALSINGULARITY = REGISTRY.register("alphstalsingularity", () -> new AlphstalsingularityItem());
 	public static final RegistryObject<Item> DRACONIUMSINGULARITY = REGISTRY.register("draconiumsingularity", () -> new DraconiumsingularityItem());
+	public static final RegistryObject<Item> TERRASTELLSINGULARITY = REGISTRY.register("terrastellsingularity", () -> new TerrastellsingularityItem());
 }
