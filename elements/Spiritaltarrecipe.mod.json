@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Neutroniumcore"
+      },
+      {
+        "value": "CUSTOM:Infinitycore"
+      },
+      {
+        "value": "CUSTOM:Neutroniumcore"
+      },
+      {
+        "value": "CUSTOM:Awekeneddraconiumsingularity"
+      },
+      {
+        "value": "Blocks.AMETHYST_CLUSTER"
+      },
+      {
+        "value": "CUSTOM:Awekeneddraconiumsingularity"
+      },
+      {
+        "value": "CUSTOM:Draconiumsingularity"
+      },
+      {
+        "value": "Blocks.AMETHYST_CLUSTER"
+      },
+      {
+        "value": "CUSTOM:Draconiumsingularity"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.SPONGE#0"
+    },
+    "name": "spiritaltarrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ABA ",
+    "CDEDC",
+    "CFFFC",
+    "CDEDC",
+    " ABA "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "create:shaft"
+    },
+    "C": {
+      "item": "create:brass_ingot"
+    },
+    "D": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "E": {
+      "item": "ae2:fluix_crystal"
+    },
+    "F": {
+      "item": "createaddition:capacitor"
+    }
+  },
+  "result": {
+    "item": "createaddition:alternator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

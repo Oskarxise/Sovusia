@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "malum:natural_quartz"
+    },
+    "1": {
+      "item": "malum:processed_soulstone"
+    },
+    "2": {
+      "item": "malum:natural_quartz"
+    },
+    "3": {
+      "item": "malum:blazing_quartz"
+    },
+    "4": {
+      "item": "malum:runewood_log"
+    },
+    "5": {
+      "item": "malum:blazing_quartz"
+    },
+    "6": {
+      "item": "malum:runewood_tiles_slab"
+    },
+    "7": {
+      "item": "malum:runewood_log"
+    },
+    "8": {
+      "item": "malum:runewood_tiles_slab"
+    }
+  },
+  "result": {
+    "item": "malum:spirit_altar",
+    "count": 1
+  }
+}

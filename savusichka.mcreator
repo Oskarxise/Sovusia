@@ -261,6 +261,104 @@
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Createbrassingotrecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createbrassingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createbrassingotrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Spiritaltarrecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spiritaltarrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spiritaltarrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Createalternator",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createalternator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createalternator.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Spiritfusionsacretspirit",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spiritfusionsacretspirit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spiritfusionsacretspirit.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Dracingotsingularityrecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dracingotsingularityrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/dracingotsingularityrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia/singularties"
+    },
+    {
+      "name": "Awekeneeddracsingularityrecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "awekeneeddracsingularityrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/awekeneeddracsingularityrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia/singularties"
+    },
+    {
+      "name": "Alphsteelsingulatiryrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alphsteelsingulatiryrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/alphsteelsingulatiryrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia/singularties"
     }
   ],
   "variable_elements": [],
@@ -302,7 +400,12 @@
         "children": [
           {
             "name": "Sovusia",
-            "children": []
+            "children": [
+              {
+                "name": "singularties",
+                "children": []
+              }
+            ]
           },
           {
             "name": "create",
@@ -310,6 +413,10 @@
           },
           {
             "name": "Draconic",
+            "children": []
+          },
+          {
+            "name": "Malum",
             "children": []
           }
         ]

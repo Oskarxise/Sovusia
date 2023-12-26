@@ -1,0 +1,12 @@
+{
+  "type": "avaritia:compressor",
+  "result": {
+    "item": "savusichka:alphstalsingularity"
+  },
+  "cost": 1024,
+  "ingredients": [
+    {
+      "item": "mythicbotany:alfsteel_ingot"
+    }
+  ]
+}

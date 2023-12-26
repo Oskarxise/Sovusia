@@ -1,0 +1,33 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "occultism:spirit_attuned_gem",
+    "count": 1
+  },
+  "output": {
+    "item": "malum:sacred_spirit",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "mysticalagriculture:prosperity_gemstone",
+      "count": 1
+    },
+    {
+      "item": "malum:natural_quartz",
+      "count": 1
+    },
+    {
+      "item": "malum:blazing_quartz",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+    }
+  ]
+}

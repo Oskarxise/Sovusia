@@ -1,0 +1,12 @@
+{
+  "type": "avaritia:compressor",
+  "result": {
+    "item": "savusichka:awekeneddraconiumsingularity"
+  },
+  "cost": 1024,
+  "ingredients": [
+    {
+      "item": "draconicevolution:awakened_draconium_ingot"
+    }
+  ]
+}
