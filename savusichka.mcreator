@@ -161,8 +161,8 @@
       "registry_name": "awekeneddraconiumsingularity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java",
-          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json"
+          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json",
+          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java"
         ]
       },
       "path": "~/Items/Singularities"
@@ -502,34 +502,120 @@
         ]
       },
       "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Bloodysteelenergized",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_steel_energized",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/BloodysteelenergizedItem.java",
+          "src/main/resources/assets/savusichka/models/item/bloody_steel_energized.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Bloodysteelenergizedblock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_steel_energized_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/block/BloodysteelenergizedblockBlock.java",
+          "src/main/resources/assets/savusichka/blockstates/bloody_steel_energized_block.json",
+          "src/main/resources/assets/savusichka/models/block/bloody_steel_energized_block.json",
+          "src/main/resources/assets/savusichka/models/item/bloody_steel_energized_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Bloodysteelenergizedrecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodysteelenergizedrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloodysteelenergizedrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Imossivedust",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imossive_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/imossive_dust.json",
+          "src/main/java/net/mcreator/savusichka/item/ImossivedustItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Chargeddraconiumblock",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargeddraconiumblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/block/chargeddraconiumblock.json",
+          "src/main/java/net/mcreator/savusichka/block/ChargeddraconiumblockBlock.java",
+          "src/main/resources/assets/savusichka/models/item/chargeddraconiumblock.json",
+          "src/main/resources/assets/savusichka/blockstates/chargeddraconiumblock.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
+      "item.savusichka.terrastellsingularity": "Terrastellsingularity",
+      "item.savusichka.rubber": "Rubber",
+      "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
+      "item.savusichka.bloody_steel_energized": "Bloody steel energized",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
-      "item.savusichka.terrastellsingularity": "Terrastellsingularity",
-      "item.savusichka.andesitesingularity": "Andesitesingularity",
-      "item.savusichka.rubber": "Rubber"
+      "item.savusichka.imossive_dust": "Imossive dust",
+      "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
+      "item.savusichka.andesitesingularity": "Andesitesingularity"
     },
     "en_us": {
-      "item.savusichka.neutroniumcrystal": "Neutronium crystal",
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
+      "item.savusichka.terrastellsingularity": "Terrastellsingularity",
+      "item.savusichka.rubber": "Rubber",
+      "item.savusichka.neutroniumcrystal": "Neutronium crystal",
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
+      "item.savusichka.bloody_steel_energized": "Bloody steel energized",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
-      "item.savusichka.terrastellsingularity": "Terrastellsingularity",
-      "item.savusichka.andesitesingularity": "Andesitesingularity",
-      "item.savusichka.rubber": "Rubber"
+      "item.savusichka.imossive_dust": "Imossive dust",
+      "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
+      "item.savusichka.andesitesingularity": "Andesitesingularity"
     }
   },
   "foldersRoot": {

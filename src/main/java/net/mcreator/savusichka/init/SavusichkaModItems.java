@@ -8,14 +8,19 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.savusichka.item.TerrastellsingularityItem;
 import net.mcreator.savusichka.item.RubberItem;
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
+import net.mcreator.savusichka.item.ImossivedustItem;
 import net.mcreator.savusichka.item.DraconiumsingularityItem;
+import net.mcreator.savusichka.item.BloodysteelenergizedItem;
 import net.mcreator.savusichka.item.AwekeneddraconiumsingularityItem;
 import net.mcreator.savusichka.item.AndesitesingularityItem;
 import net.mcreator.savusichka.item.AlphstalsingularityItem;
@@ -32,4 +37,12 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> TERRASTELLSINGULARITY = REGISTRY.register("terrastellsingularity", () -> new TerrastellsingularityItem());
 	public static final RegistryObject<Item> ANDESITESINGULARITY = REGISTRY.register("andesitesingularity", () -> new AndesitesingularityItem());
 	public static final RegistryObject<Item> RUBBER = REGISTRY.register("rubber", () -> new RubberItem());
+	public static final RegistryObject<Item> BLOODY_STEEL_ENERGIZED = REGISTRY.register("bloody_steel_energized", () -> new BloodysteelenergizedItem());
+	public static final RegistryObject<Item> BLOODY_STEEL_ENERGIZED_BLOCK = block(SavusichkaModBlocks.BLOODY_STEEL_ENERGIZED_BLOCK, SavusichkaModTabs.TAB_SOVUSIATAB);
+	public static final RegistryObject<Item> IMOSSIVE_DUST = REGISTRY.register("imossive_dust", () -> new ImossivedustItem());
+	public static final RegistryObject<Item> CHARGEDDRACONIUMBLOCK = block(SavusichkaModBlocks.CHARGEDDRACONIUMBLOCK, SavusichkaModTabs.TAB_SOVUSIATAB);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

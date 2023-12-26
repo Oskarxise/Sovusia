@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "1": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "2": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "3": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "4": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "5": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "6": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "7": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "8": {
+      "item": "savusichka:bloody_steel_energized"
+    }
+  },
+  "result": {
+    "item": "savusichka:bloody_steel_energized_block",
+    "count": 1
+  }
+}
