@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.savusichka.item.TerrastellsingularityItem;
+import net.mcreator.savusichka.item.RubberItem;
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
@@ -30,4 +31,5 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> DRACONIUMSINGULARITY = REGISTRY.register("draconiumsingularity", () -> new DraconiumsingularityItem());
 	public static final RegistryObject<Item> TERRASTELLSINGULARITY = REGISTRY.register("terrastellsingularity", () -> new TerrastellsingularityItem());
 	public static final RegistryObject<Item> ANDESITESINGULARITY = REGISTRY.register("andesitesingularity", () -> new AndesitesingularityItem());
+	public static final RegistryObject<Item> RUBBER = REGISTRY.register("rubber", () -> new RubberItem());
 }

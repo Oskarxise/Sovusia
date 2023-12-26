@@ -5,7 +5,7 @@
     "count": 1
   },
   "output": {
-    "item": "malum:sacred_spirit",
+    "item": "malum:aerial_spirit",
     "count": 1
   },
   "extra_items": [
@@ -18,7 +18,7 @@
       "count": 1
     },
     {
-      "item": "malum:natural_quartz",
+      "item": "minecraft:diamond",
       "count": 1
     },
     {

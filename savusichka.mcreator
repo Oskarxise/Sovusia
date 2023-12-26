@@ -384,11 +384,124 @@
       "registry_name": "andesitesingularity",
       "metadata": {
         "files": [
-          "src/main/resources/assets/savusichka/models/item/andesitesingularity.json",
-          "src/main/java/net/mcreator/savusichka/item/AndesitesingularityItem.java"
+          "src/main/java/net/mcreator/savusichka/item/AndesitesingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/andesitesingularity.json"
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Rubber",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/RubberItem.java",
+          "src/main/resources/assets/savusichka/models/item/rubber.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Createrubber",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "createrubber",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/createrubber.json"
+        ]
+      },
+      "path": "~/Recipes/create"
+    },
+    {
+      "name": "Spifaqueous",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spifaqueous",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spifaqueous.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Spifaerial",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spifaerial",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spifaerial.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Spifinfernal",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spifinfernal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spifinfernal.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Spifeldritch",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spifeldritch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spifeldritch.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Spifwicked",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spifwicked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spifwicked.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
+    },
+    {
+      "name": "Spifarcane",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spifarcane",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/spifarcane.json"
+        ]
+      },
+      "path": "~/Recipes/Malum"
     }
   ],
   "variable_elements": [],
@@ -403,7 +516,8 @@
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
-      "item.savusichka.andesitesingularity": "Andesitesingularity"
+      "item.savusichka.andesitesingularity": "Andesitesingularity",
+      "item.savusichka.rubber": "Rubber"
     },
     "en_us": {
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
@@ -414,7 +528,8 @@
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
-      "item.savusichka.andesitesingularity": "Andesitesingularity"
+      "item.savusichka.andesitesingularity": "Andesitesingularity",
+      "item.savusichka.rubber": "Rubber"
     }
   },
   "foldersRoot": {

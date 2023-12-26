@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "fluid": "creatania:molten_andesite",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "savusichka:rubber",
+      "count" : 4
+    }
+  ],
+  "heatRequirement": "heated"
+}

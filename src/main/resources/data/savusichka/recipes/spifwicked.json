@@ -5,16 +5,16 @@
     "count": 1
   },
   "output": {
-    "item": "malum:sacred_spirit",
+    "item": "malum:wicked_spirit",
     "count": 1
   },
   "extra_items": [
     {
-      "item": "minecraft:gold_ingot",
+      "item": "minecraft:fermented_spider_eye",
       "count": 1
     },
     {
-      "item": "mysticalagriculture:prosperity_gemstone",
+      "item": "create:powdered_obsidian",
       "count": 1
     },
     {
