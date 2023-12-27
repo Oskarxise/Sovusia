@@ -13,7 +13,9 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.savusichka.item.ZincsingularityItem;
 import net.mcreator.savusichka.item.TerrastellsingularityItem;
+import net.mcreator.savusichka.item.SoulstainedsteelsingularityItem;
 import net.mcreator.savusichka.item.RubberItem;
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
@@ -41,6 +43,8 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> BLOODY_STEEL_ENERGIZED_BLOCK = block(SavusichkaModBlocks.BLOODY_STEEL_ENERGIZED_BLOCK, SavusichkaModTabs.TAB_SOVUSIATAB);
 	public static final RegistryObject<Item> IMOSSIVE_DUST = REGISTRY.register("imossive_dust", () -> new ImossivedustItem());
 	public static final RegistryObject<Item> CHARGEDDRACONIUMBLOCK = block(SavusichkaModBlocks.CHARGEDDRACONIUMBLOCK, SavusichkaModTabs.TAB_SOVUSIATAB);
+	public static final RegistryObject<Item> ZINCSINGULARITY = REGISTRY.register("zincsingularity", () -> new ZincsingularityItem());
+	public static final RegistryObject<Item> SOULSTAINEDSTEELSINGULARITY = REGISTRY.register("soulstainedsteelsingularity", () -> new SoulstainedsteelsingularityItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

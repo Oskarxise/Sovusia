@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "savusichka:items/soul_stained_steel_singularity"
+  }
+}
