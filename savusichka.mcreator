@@ -9,8 +9,8 @@
       "registry_name": "neutroniumcrystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/savusichka/models/item/neutroniumcrystal.json",
-          "src/main/java/net/mcreator/savusichka/item/NeutroniumcrystalItem.java"
+          "src/main/java/net/mcreator/savusichka/item/NeutroniumcrystalItem.java",
+          "src/main/resources/assets/savusichka/models/item/neutroniumcrystal.json"
         ]
       },
       "path": "~/Items"
@@ -118,8 +118,8 @@
       "registry_name": "neutroniumcore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/savusichka/models/item/neutroniumcore.json",
-          "src/main/java/net/mcreator/savusichka/item/NeutroniumcoreItem.java"
+          "src/main/java/net/mcreator/savusichka/item/NeutroniumcoreItem.java",
+          "src/main/resources/assets/savusichka/models/item/neutroniumcore.json"
         ]
       },
       "path": "~/Items"
@@ -161,8 +161,8 @@
       "registry_name": "awekeneddraconiumsingularity",
       "metadata": {
         "files": [
-          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json",
-          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java"
+          "src/main/java/net/mcreator/savusichka/item/AwekeneddraconiumsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/awekeneddraconiumsingularity.json"
         ]
       },
       "path": "~/Items/Singularities"
@@ -384,8 +384,8 @@
       "registry_name": "andesitesingularity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/savusichka/item/AndesitesingularityItem.java",
-          "src/main/resources/assets/savusichka/models/item/andesitesingularity.json"
+          "src/main/resources/assets/savusichka/models/item/andesitesingularity.json",
+          "src/main/java/net/mcreator/savusichka/item/AndesitesingularityItem.java"
         ]
       },
       "path": "~/Items/Singularities"
@@ -512,8 +512,8 @@
       "registry_name": "bloody_steel_energized",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/savusichka/item/BloodysteelenergizedItem.java",
-          "src/main/resources/assets/savusichka/models/item/bloody_steel_energized.json"
+          "src/main/resources/assets/savusichka/models/item/bloody_steel_energized.json",
+          "src/main/java/net/mcreator/savusichka/item/BloodysteelenergizedItem.java"
         ]
       },
       "path": "~/Items"
@@ -527,10 +527,10 @@
       "registry_name": "bloody_steel_energized_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/savusichka/models/item/bloody_steel_energized_block.json",
           "src/main/java/net/mcreator/savusichka/block/BloodysteelenergizedblockBlock.java",
           "src/main/resources/assets/savusichka/blockstates/bloody_steel_energized_block.json",
-          "src/main/resources/assets/savusichka/models/block/bloody_steel_energized_block.json",
-          "src/main/resources/assets/savusichka/models/item/bloody_steel_energized_block.json"
+          "src/main/resources/assets/savusichka/models/block/bloody_steel_energized_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -558,8 +558,8 @@
       "registry_name": "imossive_dust",
       "metadata": {
         "files": [
-          "src/main/resources/assets/savusichka/models/item/imossive_dust.json",
-          "src/main/java/net/mcreator/savusichka/item/ImossivedustItem.java"
+          "src/main/java/net/mcreator/savusichka/item/ImossivedustItem.java",
+          "src/main/resources/assets/savusichka/models/item/imossive_dust.json"
         ]
       },
       "path": "~/Items"
@@ -801,8 +801,8 @@
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
       "item.savusichka.zincsingularity": "Zincsingularity",
-      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
+      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "item.savusichka.rubber": "Rubber",
       "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
@@ -819,8 +819,8 @@
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
       "item.savusichka.zincsingularity": "Zincsingularity",
-      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
+      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "item.savusichka.rubber": "Rubber",
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
