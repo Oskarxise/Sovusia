@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "2": {
+      "item": "malum:block_of_blazing_quartz"
+    },
+    "3": {
+      "item": "bloodmagic:lavacrystal"
+    },
+    "4": {
+      "item": "powah:capacitor_basic_large"
+    },
+    "5": {
+      "item": "bloodmagic:lavacrystal"
+    },
+    "6": {
+      "item": "mysticalagriculture:tertium_ingot"
+    },
+    "7": {
+      "item": "savusichka:bloody_steel_energized"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_hardened",
+    "count": 1
+  }
+}

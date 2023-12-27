@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "create:brass_sheet"
+    },
+    "2": {
+      "item": "powah:dielectric_paste"
+    },
+    "3": {
+      "item": "savusichka:rubber"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "savusichka:rubber"
+    },
+    "6": {
+      "item": "powah:dielectric_paste"
+    },
+    "7": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_basic_tiny",
+    "count": 2
+  }
+}

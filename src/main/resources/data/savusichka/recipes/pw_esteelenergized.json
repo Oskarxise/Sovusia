@@ -1,0 +1,14 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "create:brass_ingot"},
+	{"item": "minecraft:redstone_block"},
+	{"item": "create:zinc_ingot"},
+	{"item": "mysticalagriculture:prudentium_ingot"}
+  ],
+  "energy": 25000,
+  "result": {
+	"item": "powah:steel_enerdized",
+	"count": 3
+  }
+}

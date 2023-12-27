@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+  	"0": {
+      "item": "powah:uraninite_block"
+    },
+    "1": {
+      "item": "savusichka:imossive_dust"
+    },
+    "2": {
+      "item": "powah:crystal_spirited"
+    },
+    "3": {
+      "item": "malum:earthen_spirit"
+    },
+    "4": {
+      "item": "powah:capacitor_niotic"
+    },
+    "5": {
+      "item": "malum:earthen_spirit"
+    },
+    "6": {
+      "item": "powah:crystal_spirited"
+    },
+    "7": {
+      "item": "savusichka:imossive_dust"
+    },
+    "8": {
+      "item": "powah:uraninite_block"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_spirited",
+    "count": 1
+  }
+}

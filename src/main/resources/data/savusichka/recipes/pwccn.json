@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    "2": {
+      "item": "powah:crystal_niotic"
+    },
+    "3": {
+      "item": "occultism:iesnium_ingot"
+    },
+    "4": {
+      "item": "powah:capacitor_blazing"
+    },
+    "5": {
+      "item": "occultism:iesnium_ingot"
+    },
+    "6": {
+      "item": "powah:crystal_niotic"
+    },
+    "7": {
+      "item": "malum:soul_stained_steel_ingot"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_niotic",
+    "count": 1
+  }
+}
