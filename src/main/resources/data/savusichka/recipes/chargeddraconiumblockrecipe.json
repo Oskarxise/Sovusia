@@ -1,0 +1,16 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "draconicevolution:draconium_block"},
+	{"item": "draconicevolution:draconium_block"},
+	{"item": "powah:steel_energized"},
+	{"item": "powah:steel_energized"},
+	{"item": "minecarft:redstone"},
+	{"item": "minecarft:redstone"}
+  ],
+  "energy": 80000,
+  "result": {
+	"item": "savusichka:chargeddraconiumblock",
+	"count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:altar",
+  "input": {
+    "item": "powah:steel_energized"
+  },
+  "output": {
+    "item": "savusichka:bloody_steel_energized"
+  },
+  "upgradeLevel": 2,
+  "altarSyphon": 700,
+  "consumptionRate": 2,
+  "drainRate": 2
+}

@@ -580,6 +580,188 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "PWCdielectricpaste",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pw_cdielectricpaste",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pw_cdielectricpaste.json"
+        ]
+      },
+      "path": "~/Recipes/Powah"
+    },
+    {
+      "name": "PWEsteelenergized",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pw_esteelenergized",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pw_esteelenergized.json"
+        ]
+      },
+      "path": "~/Recipes/Powah"
+    },
+    {
+      "name": "PWBbloodysteelenergized",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pw_bbloodysteelenergized",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pw_bbloodysteelenergized.json"
+        ]
+      },
+      "path": "~/Recipes/Powah"
+    },
+    {
+      "name": "PWCCPBT",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccpbt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccpbt.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCB",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccb.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCBL",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccbl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccbl.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCH",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwcch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwcch.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCBLAZ",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccblaz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccblaz.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCN",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccn.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCS",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccs.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "PWCCNITRO",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pwccnitro",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/pwccnitro.json"
+        ]
+      },
+      "path": "~/Recipes/Powah/Capacitors"
+    },
+    {
+      "name": "Imossivedustrecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "imossivedustrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/imossivedustrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Chargeddraconiumblockrecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chargeddraconiumblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/chargeddraconiumblockrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
     }
   ],
   "variable_elements": [],
@@ -653,6 +835,15 @@
           {
             "name": "Malum",
             "children": []
+          },
+          {
+            "name": "Powah",
+            "children": [
+              {
+                "name": "Capacitors",
+                "children": []
+              }
+            ]
           }
         ]
       },

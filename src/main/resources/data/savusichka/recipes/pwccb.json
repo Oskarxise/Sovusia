@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "create:brass_sheet"
+    },
+    "2": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "3": {
+      "item": "bloodmagic:basemonstersoul"
+    },
+    "4": {
+      "item": "minecraft:redstone_block"
+    },
+    "5": {
+      "item": "bloodmagic:basemonstersoul"
+    },
+    "6": {
+      "item": "powah:capacitor_basic_tiny"
+    },
+    "7": {
+      "item": "create:brass_sheet"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_basic",
+    "count": 2
+  }
+}

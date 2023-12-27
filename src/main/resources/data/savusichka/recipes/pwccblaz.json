@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+  	"0": {
+      "item": "malum:infernal_spirit"
+    },
+    "1": {
+      "item": "savusichka:bloody_steel_energized_block"
+    },
+    "2": {
+      "item": "powah:crystal_blazing"
+    },
+    "3": {
+      "item": "malum:natural_quartz"
+    },
+    "4": {
+      "item": "powah:capacitor_hardened"
+    },
+    "5": {
+      "item": "malum:natural_quartz"
+    },
+    "6": {
+      "item": "powah:crystal_blazing"
+    },
+    "7": {
+      "item": "create:polished_rose_quartz"
+    },
+    "8": {
+      "item": "malum:infernal_spirit"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_blazing",
+    "count": 1
+  }
+}

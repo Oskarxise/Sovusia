@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
+      "item": "ae2:fluix_dust"
+    },
+    {
+      "item": "ae2:sky_dust"
+    },
+    {
+      "item": "ae2:ender_dust"
+    },
+    {
+      "item": "mysticalagriculture:soulium_dust"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "occultism:iron_dust"
+    },
+    {
+      "item": "createaddition:diamond_grit"
+    },
+    {
+      "item": "occultism:gold_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "savusichka:rubber",
+      "count" : 4
+    }
+  ],
+  "heatRequirement": "heated"
+}

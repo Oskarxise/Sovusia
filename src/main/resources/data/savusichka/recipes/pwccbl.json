@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "create:brass_block"
+    },
+    "2": {
+      "item": "mysticalagriculture:tertium_ingot"
+    },
+    "3": {
+      "item": "powah:capacitor_basic"
+    },
+    "4": {
+      "item": "bloodmagic:apprenticebloodorb"
+    },
+    "5": {
+      "item": "powah:capacitor_basic"
+    },
+    "6": {
+      "item": "mysticalagriculture:tertium_ingot"
+    },
+    "7": {
+      "item": "create:brass_block"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_basic_large",
+    "count": 1
+  }
+}

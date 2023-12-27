@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+  	"0": {
+      "item": "malum:block_of_cursed_grit"
+    },
+    "1": {
+      "item": "savusichka:chargeddraconiumblock"
+    },
+    "2": {
+      "item": "powah:crystal_nitro"
+    },
+    "3": {
+      "item": "bloodmagic:largebloodstonebrick"
+    },
+    "4": {
+      "item": "powah:capacitor_spirited"
+    },
+    "5": {
+      "item": "bloodmagic:largebloodstonebrick"
+    },
+    "6": {
+      "item": "powah:crystal_nitro"
+    },
+    "7": {
+      "item": "savusichka:chargeddraconiumblock"
+    },
+    "8": {
+      "item": "malum:block_of_cursed_grit"
+    }
+  },
+  "result": {
+    "item": "powah:capacitor_nitro",
+    "count": 1
+  }
+}
