@@ -131,7 +131,7 @@ public class NeutroniumsolarpanelBlockEntity extends RandomizableContainerBlockE
 		return true;
 	}
 
-	private final EnergyStorage energyStorage = new EnergyStorage(1000000000, 1, 10000000, 0) {
+	private final EnergyStorage energyStorage = new EnergyStorage(1000000000, 1000000, 10000000, 0) {
 		@Override
 		public int receiveEnergy(int maxReceive, boolean simulate) {
 			int retval = super.receiveEnergy(maxReceive, simulate);
