@@ -49,7 +49,7 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> CHARGEDDRACONIUMBLOCK = block(SavusichkaModBlocks.CHARGEDDRACONIUMBLOCK, SavusichkaModTabs.TAB_SOVUSIATAB);
 	public static final RegistryObject<Item> CAPACITOR_NEUTRONIUM = REGISTRY.register("capacitor_neutronium", () -> new NeutroniumcapacitorItem());
 	public static final RegistryObject<Item> CAPACITOR_INFINITY = REGISTRY.register("capacitor_infinity", () -> new CapacitorinfinityItem());
-	public static final RegistryObject<Item> NEUTRONIC_SOLARPANEL = block(SavusichkaModBlocks.NEUTRONIC_SOLARPANEL, SavusichkaModTabs.TAB_SOVUSIATAB);
+	public static final RegistryObject<Item> NEUTRONIC_SOLAR_PANEL = block(SavusichkaModBlocks.NEUTRONIC_SOLAR_PANEL, SavusichkaModTabs.TAB_SOVUSIATAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

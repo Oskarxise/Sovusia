@@ -149,6 +149,6 @@ public class NeutronicsolarpanelBlock extends Block implements EntityBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(SavusichkaModBlocks.NEUTRONIC_SOLARPANEL.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(SavusichkaModBlocks.NEUTRONIC_SOLAR_PANEL.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

@@ -1,0 +1,61 @@
+{
+  "type": "avaritia:extreme_shaped",
+  "result": {
+    "item": "savusichka:neutronic_solar_panel"
+  },
+  "pattern": [
+    "RRRRRRRRR",
+    "RIDCACDIR",
+    "RDPSSSPDR",
+    "RANMUMNAR",
+    "RVNHZHNVR",
+    "RANMUMNAR",
+    "RDPFFFPDR",
+    "RIDCACDIR",
+    "RRRRRRRRR"
+  ],
+  "key": {
+    "R": {
+      "item": "powah:reactor_nitro"
+    },
+    "I": {
+      "item": "draconicevolution:infused_obsidian"
+    },
+    "D": {
+      "item": "savusichka:chargeddraconiumblock"
+    },
+    "C": {
+      "item": "draconicevolution:awakened_draconium_block"
+    },
+    "A": {
+      "item": "draconicevolution:awakened_core"
+    },
+    "P": {
+      "item": "savusichka:capacitor_neutronium"
+    },
+    "S": {
+      "item": "powah:solar_panel_nitro"
+    },
+    "N": {
+      "item": "savusichka:neutroniumcrystal"
+    },
+    "M": {
+      "item": "avaritia:neutronium_block"
+    },
+    "U": {
+      "item": "avaritia:ultimate_stew"
+    },
+    "V": {
+      "item": "draconicevolution:wyvern_core"
+    },
+    "H": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "Z": {
+      "item": "savusichka:neutroniumcore"
+    },
+    "F": {
+      "item": "draconicevolution:medium_chaos_frag"
+    }
+  }
+}

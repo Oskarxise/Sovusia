@@ -16,7 +16,7 @@ import net.mcreator.savusichka.SavusichkaMod;
 
 public class SavusichkaModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, SavusichkaMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> NEUTRONIC_SOLARPANEL = register("neutronic_solarpanel", SavusichkaModBlocks.NEUTRONIC_SOLARPANEL, NeutronicsolarpanelBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> NEUTRONIC_SOLAR_PANEL = register("neutronic_solar_panel", SavusichkaModBlocks.NEUTRONIC_SOLAR_PANEL, NeutronicsolarpanelBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

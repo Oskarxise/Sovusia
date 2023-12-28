@@ -36,7 +36,7 @@ public class NeutronicsolarpanelBlockEntity extends RandomizableContainerBlockEn
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public NeutronicsolarpanelBlockEntity(BlockPos position, BlockState state) {
-		super(SavusichkaModBlockEntities.NEUTRONIC_SOLARPANEL.get(), position, state);
+		super(SavusichkaModBlockEntities.NEUTRONIC_SOLAR_PANEL.get(), position, state);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class NeutronicsolarpanelBlockEntity extends RandomizableContainerBlockEn
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("neutronic_solarpanel");
+		return new TextComponent("neutronic_solar_panel");
 	}
 
 	@Override
