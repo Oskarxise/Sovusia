@@ -5,8 +5,8 @@
 	{"item": "draconicevolution:draconium_block"},
 	{"item": "powah:steel_energized"},
 	{"item": "powah:steel_energized"},
-	{"item": "minecarft:redstone"},
-	{"item": "minecarft:redstone"}
+	{"item": "minecraft:redstone"},
+	{"item": "minecraft:redstone"}
   ],
   "energy": 80000,
   "result": {

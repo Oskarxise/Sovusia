@@ -762,6 +762,20 @@
         ]
       },
       "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Diamondrecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diamondrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/diamondrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/occultism"
     }
   ],
   "variable_elements": [],
@@ -844,6 +858,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "occultism",
+            "children": []
           }
         ]
       },
