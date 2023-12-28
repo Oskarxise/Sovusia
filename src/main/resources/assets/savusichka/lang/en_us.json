@@ -1,21 +1,21 @@
 {
   "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
   "item.savusichka.neutroniumcore": "Neutronium core",
-  "item.savusichka.zincsingularity": "Zinc singularity",
+  "item.savusichka.zincsingularity": "Zincsingularity",
+  "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
   "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
-  "item.savusichka.soulstainedsteelsingularity": "Soul stained steel singularity",
-  "item.savusichka.terrastellsingularity": "Terrastell singularity",
-  "block.savusichka.neutronic_solar_panel": "Neutronic solar panel",
+  "item.savusichka.terrastellsingularity": "Terrastellsingularity",
+  "block.savusichka.neutronium_solar_panel": "Neutronium solar panel",
   "item.savusichka.rubber": "Rubber",
   "item.savusichka.capacitor_neutronium": "Neutronium capacitor",
   "item.savusichka.neutroniumcrystal": "Neutronium crystal",
-  "item.savusichka.draconiumsingularity": "Draconium singularity",
+  "item.savusichka.draconiumsingularity": "Draconiumsingularity",
   "item.savusichka.bloody_steel_energized": "Bloody steel energized",
   "item.savusichka.alphstalsingularity": "Alphstal singularity",
   "itemGroup.tabsovusiatab": "Sovusia",
   "item.savusichka.infinitycore": "Infinity core",
   "item.savusichka.imossive_dust": "Imossive dust",
-  "block.savusichka.chargeddraconiumblock": "Charged draconium block",
+  "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
   "item.savusichka.capacitor_infinity": "Infinity capacitor",
-  "item.savusichka.andesitesingularity": "Andesite singularity"
+  "item.savusichka.andesitesingularity": "Andesitesingularity"
 }

@@ -78,7 +78,7 @@
         "subtract": false
       }
     ],
-    "name": "Neutronic solar panel",
+    "name": "Neutronium solar panel",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -155,10 +155,10 @@
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": true,
-    "energyInitial": 1000,
-    "energyCapacity": 100000000,
-    "energyMaxReceive": 0,
-    "energyMaxExtract": 1000000,
+    "energyInitial": 0,
+    "energyCapacity": 1000000000,
+    "energyMaxReceive": 1,
+    "energyMaxExtract": 10000000,
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],

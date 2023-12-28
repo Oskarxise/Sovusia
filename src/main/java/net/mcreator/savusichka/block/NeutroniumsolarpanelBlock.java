@@ -34,14 +34,14 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.mcreator.savusichka.procedures.NeutronicsolarpanelPriShchielchkiePKMPoBlokuProcedure;
 import net.mcreator.savusichka.procedures.NeutronicsolarpanelObnovlieniieTikaProcedure;
 import net.mcreator.savusichka.init.SavusichkaModBlocks;
-import net.mcreator.savusichka.block.entity.NeutronicsolarpanelBlockEntity;
+import net.mcreator.savusichka.block.entity.NeutroniumsolarpanelBlockEntity;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-public class NeutronicsolarpanelBlock extends Block implements EntityBlock {
-	public NeutronicsolarpanelBlock() {
+public class NeutroniumsolarpanelBlock extends Block implements EntityBlock {
+	public NeutroniumsolarpanelBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -111,7 +111,7 @@ public class NeutronicsolarpanelBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new NeutronicsolarpanelBlockEntity(pos, state);
+		return new NeutroniumsolarpanelBlockEntity(pos, state);
 	}
 
 	@Override
@@ -125,7 +125,7 @@ public class NeutronicsolarpanelBlock extends Block implements EntityBlock {
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof NeutronicsolarpanelBlockEntity be) {
+			if (blockEntity instanceof NeutroniumsolarpanelBlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
@@ -141,7 +141,7 @@ public class NeutronicsolarpanelBlock extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof NeutronicsolarpanelBlockEntity be)
+		if (tileentity instanceof NeutroniumsolarpanelBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
@@ -149,6 +149,6 @@ public class NeutronicsolarpanelBlock extends Block implements EntityBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(SavusichkaModBlocks.NEUTRONIC_SOLAR_PANEL.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(SavusichkaModBlocks.NEUTRONIUM_SOLAR_PANEL.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

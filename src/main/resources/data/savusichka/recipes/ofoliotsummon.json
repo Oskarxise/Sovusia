@@ -14,16 +14,16 @@
   },
   "ingredients": [
     {
-      "tag": "forge:raw_materials/iron"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "tag": "forge:raw_materials/gold"
+      "item": "malum:eldritch_spirit"
     },
     {
-      "tag": "forge:raw_materials/copper"
+      "item": "malum:poppet"
     },
     {
-      "tag": "forge:raw_materials/silver"
+      "item": "occultism:spirit_attuned_gem"
     }
   ],
   "result": {

@@ -1,5 +1,5 @@
 {
-  "parent": "savusichka:block/neutronic_solar_panel",
+  "parent": "savusichka:block/neutronium_solar_panel",
   "display": {
     "thirdperson": {
       "rotation": [

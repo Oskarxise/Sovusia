@@ -11,16 +11,28 @@
   },
   "ingredients": [
     {
-      "item": "occultism:magic_lamp_empty"
+      "item": "malum:eldritch_spirit"
     },
     {
       "item": "occultism:iesnium_pickaxe"
     },
     {
-      "tag": "forge:raw_materials/iron"
+      "item": "mysticalagriculture:prudentium_essence"
     },
     {
-      "item": "minecraft:gravel"
+      "item": "occultism:iesnium_block"
+    },
+    {
+      "item": "malum:ether"
+    },
+    {
+      "item": "malum:soul_stained_steel_pickaxe"
+    },
+    {
+      "item": "malum:block_of_hallowed_gold"
+    },
+    {
+      "item": "occultism:magic_lamp_empty"
     }
   ],
   "result": {

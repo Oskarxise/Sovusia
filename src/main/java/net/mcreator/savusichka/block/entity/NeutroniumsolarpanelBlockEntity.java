@@ -31,12 +31,12 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class NeutronicsolarpanelBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+public class NeutroniumsolarpanelBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public NeutronicsolarpanelBlockEntity(BlockPos position, BlockState state) {
-		super(SavusichkaModBlockEntities.NEUTRONIC_SOLAR_PANEL.get(), position, state);
+	public NeutroniumsolarpanelBlockEntity(BlockPos position, BlockState state) {
+		super(SavusichkaModBlockEntities.NEUTRONIUM_SOLAR_PANEL.get(), position, state);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class NeutronicsolarpanelBlockEntity extends RandomizableContainerBlockEn
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("neutronic_solar_panel");
+		return new TextComponent("neutronium_solar_panel");
 	}
 
 	@Override
@@ -98,7 +98,7 @@ public class NeutronicsolarpanelBlockEntity extends RandomizableContainerBlockEn
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Neutronic solar panel");
+		return new TextComponent("Neutronium solar panel");
 	}
 
 	@Override
@@ -131,7 +131,7 @@ public class NeutronicsolarpanelBlockEntity extends RandomizableContainerBlockEn
 		return true;
 	}
 
-	private final EnergyStorage energyStorage = new EnergyStorage(100000000, 0, 1000000, 1000) {
+	private final EnergyStorage energyStorage = new EnergyStorage(1000000000, 1, 10000000, 0) {
 		@Override
 		public int receiveEnergy(int maxReceive, boolean simulate) {
 			int retval = super.receiveEnergy(maxReceive, simulate);
