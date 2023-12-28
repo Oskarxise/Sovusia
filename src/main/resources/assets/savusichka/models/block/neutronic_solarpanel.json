@@ -1,0 +1,10 @@
+{
+  "parent": "savusichka:custom/cable",
+  "textures": {
+    "all": "savusichka:blocks/solar_panel_top",
+    "particle": "savusichka:blocks/solar_panel_top",
+    "0": "savusichka:blocks/solar_panel_top",
+    "1": "savusichka:blocks/solar_panel_starter_frame",
+    "2": "savusichka:blocks/solar_panel"
+  }
+}

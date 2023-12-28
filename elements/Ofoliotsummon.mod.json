@@ -15,34 +15,34 @@
         "value": ""
       },
       {
-        "value": "Blocks.LARGE_AMETHYST_BUD"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.LARGE_AMETHYST_BUD"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Rubber"
-      },
-      {
-        "value": "Blocks.LARGE_AMETHYST_BUD"
+        "value": "CUSTOM:Capacitorinfinity"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.LARGE_AMETHYST_BUD"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Rubber"
+      "value": "CUSTOM:Neutroniumcore"
     },
-    "name": "diamondrecipe",
+    "name": "ofoliotsummon",
     "namespace": "mod"
   }
 }

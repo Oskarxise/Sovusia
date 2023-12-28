@@ -3,7 +3,7 @@
     {
       "name": "Neutroniumcrystal",
       "type": "item",
-      "sortid": 11,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcrystal",
@@ -18,7 +18,7 @@
     {
       "name": "Fusionneutroncore",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 18,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fusionneutroncore",
@@ -32,7 +32,7 @@
     {
       "name": "CraftChaoticenergycore",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 19,
       "compiles": true,
       "locked_code": true,
       "registry_name": "craft_chaoticenergycore",
@@ -46,7 +46,7 @@
     {
       "name": "Createshaftrecipe",
       "type": "recipe",
-      "sortid": 2,
+      "sortid": 20,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createshaftrecipe",
@@ -60,6 +60,7 @@
     {
       "name": "Sovusiatab",
       "type": "tab",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sovusiatab",
@@ -70,7 +71,7 @@
     {
       "name": "Createandesitealloy",
       "type": "recipe",
-      "sortid": 5,
+      "sortid": 22,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createandesitealloy",
@@ -84,7 +85,7 @@
     {
       "name": "Createmechanicalmixer",
       "type": "recipe",
-      "sortid": 4,
+      "sortid": 23,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createmechanicalmixer",
@@ -98,7 +99,7 @@
     {
       "name": "Neitroniumcrystall",
       "type": "recipe",
-      "sortid": 6,
+      "sortid": 24,
       "compiles": true,
       "locked_code": true,
       "registry_name": "neitroniumcrystall",
@@ -112,7 +113,7 @@
     {
       "name": "Neutroniumcore",
       "type": "item",
-      "sortid": 8,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neutroniumcore",
@@ -127,7 +128,7 @@
     {
       "name": "Createmechanicalpress",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createmechanicalpress",
@@ -141,7 +142,7 @@
     {
       "name": "Createmillstone",
       "type": "recipe",
-      "sortid": 1,
+      "sortid": 26,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createmillstone",
@@ -155,7 +156,7 @@
     {
       "name": "Awekeneddraconiumsingularity",
       "type": "item",
-      "sortid": 1,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "awekeneddraconiumsingularity",
@@ -170,6 +171,7 @@
     {
       "name": "Enegry",
       "type": "command",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enegry",
@@ -183,6 +185,7 @@
     {
       "name": "Energycommand",
       "type": "procedure",
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "energycommand",
@@ -206,7 +209,7 @@
     {
       "name": "Infinitycore",
       "type": "item",
-      "sortid": 12,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinitycore",
@@ -221,7 +224,7 @@
     {
       "name": "Alphstalsingularity",
       "type": "item",
-      "sortid": 13,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alphstalsingularity",
@@ -236,7 +239,7 @@
     {
       "name": "Fusioninfinitycore",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 29,
       "compiles": true,
       "locked_code": true,
       "registry_name": "fusioninfinitycore",
@@ -250,7 +253,7 @@
     {
       "name": "Draconiumsingularity",
       "type": "item",
-      "sortid": 15,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "draconiumsingularity",
@@ -265,7 +268,7 @@
     {
       "name": "Createbrassingotrecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 30,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createbrassingotrecipe",
@@ -279,7 +282,7 @@
     {
       "name": "Spiritaltarrecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 31,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spiritaltarrecipe",
@@ -293,7 +296,7 @@
     {
       "name": "Createalternator",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 32,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createalternator",
@@ -307,7 +310,7 @@
     {
       "name": "Spiritfusionsacretspirit",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 33,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spiritfusionsacretspirit",
@@ -321,7 +324,7 @@
     {
       "name": "Dracingotsingularityrecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 34,
       "compiles": true,
       "locked_code": true,
       "registry_name": "dracingotsingularityrecipe",
@@ -335,7 +338,7 @@
     {
       "name": "Awekeneeddracsingularityrecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 35,
       "compiles": true,
       "locked_code": true,
       "registry_name": "awekeneeddracsingularityrecipe",
@@ -349,7 +352,7 @@
     {
       "name": "Alphsteelsingulatiryrecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 36,
       "compiles": true,
       "locked_code": true,
       "registry_name": "alphsteelsingulatiryrecipe",
@@ -363,7 +366,7 @@
     {
       "name": "Terrastellsingularity",
       "type": "item",
-      "sortid": 23,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "terrastellsingularity",
@@ -378,7 +381,7 @@
     {
       "name": "Andesitesingularity",
       "type": "item",
-      "sortid": 24,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "andesitesingularity",
@@ -393,7 +396,7 @@
     {
       "name": "Rubber",
       "type": "item",
-      "sortid": 25,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rubber",
@@ -408,7 +411,7 @@
     {
       "name": "Createrubber",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 37,
       "compiles": true,
       "locked_code": true,
       "registry_name": "createrubber",
@@ -422,7 +425,7 @@
     {
       "name": "Spifaqueous",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 38,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spifaqueous",
@@ -436,7 +439,7 @@
     {
       "name": "Spifaerial",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 39,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spifaerial",
@@ -450,7 +453,7 @@
     {
       "name": "Spifinfernal",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 40,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spifinfernal",
@@ -464,7 +467,7 @@
     {
       "name": "Spifeldritch",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 41,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spifeldritch",
@@ -478,7 +481,7 @@
     {
       "name": "Spifwicked",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 42,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spifwicked",
@@ -492,7 +495,7 @@
     {
       "name": "Spifarcane",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 43,
       "compiles": true,
       "locked_code": true,
       "registry_name": "spifarcane",
@@ -506,7 +509,7 @@
     {
       "name": "Bloodysteelenergized",
       "type": "item",
-      "sortid": 33,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloody_steel_energized",
@@ -521,7 +524,7 @@
     {
       "name": "Bloodysteelenergizedblock",
       "type": "block",
-      "sortid": 34,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloody_steel_energized_block",
@@ -538,7 +541,7 @@
     {
       "name": "Bloodysteelenergizedrecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodysteelenergizedrecipe",
@@ -552,7 +555,7 @@
     {
       "name": "Imossivedust",
       "type": "item",
-      "sortid": 36,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "imossive_dust",
@@ -567,7 +570,7 @@
     {
       "name": "Chargeddraconiumblock",
       "type": "block",
-      "sortid": 37,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chargeddraconiumblock",
@@ -584,7 +587,7 @@
     {
       "name": "PWCdielectricpaste",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 45,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pw_cdielectricpaste",
@@ -598,7 +601,7 @@
     {
       "name": "PWEsteelenergized",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 46,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pw_esteelenergized",
@@ -612,7 +615,7 @@
     {
       "name": "PWBbloodysteelenergized",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 47,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pw_bbloodysteelenergized",
@@ -626,7 +629,7 @@
     {
       "name": "PWCCPBT",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 48,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccpbt",
@@ -640,7 +643,7 @@
     {
       "name": "PWCCB",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 49,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccb",
@@ -654,7 +657,7 @@
     {
       "name": "PWCCBL",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 50,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccbl",
@@ -668,7 +671,7 @@
     {
       "name": "PWCCH",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 51,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwcch",
@@ -682,7 +685,7 @@
     {
       "name": "PWCCBLAZ",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 52,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccblaz",
@@ -696,7 +699,7 @@
     {
       "name": "PWCCN",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 53,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccn",
@@ -710,7 +713,7 @@
     {
       "name": "PWCCS",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 54,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccs",
@@ -724,7 +727,7 @@
     {
       "name": "PWCCNITRO",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 55,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pwccnitro",
@@ -738,7 +741,7 @@
     {
       "name": "Imossivedustrecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 56,
       "compiles": true,
       "locked_code": true,
       "registry_name": "imossivedustrecipe",
@@ -752,7 +755,7 @@
     {
       "name": "Chargeddraconiumblockrecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 57,
       "compiles": true,
       "locked_code": true,
       "registry_name": "chargeddraconiumblockrecipe",
@@ -764,23 +767,9 @@
       "path": "~/Recipes/Sovusia"
     },
     {
-      "name": "Diamondrecipe",
-      "type": "recipe",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "diamondrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/savusichka/recipes/diamondrecipe.json"
-        ]
-      },
-      "path": "~/Recipes/occultism"
-    },
-    {
       "name": "Soulstainedsteelsingularity",
       "type": "item",
-      "sortid": 39,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soulstainedsteelsingularity",
@@ -795,7 +784,7 @@
     {
       "name": "Zincsingularity",
       "type": "item",
-      "sortid": 38,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zincsingularity",
@@ -806,6 +795,178 @@
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Odiamonddustrecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "odiamonddustrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/odiamonddustrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/Occultism"
+    },
+    {
+      "name": "Neutroniumcapacitor",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor_neutronium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/NeutroniumcapacitorItem.java",
+          "src/main/resources/assets/savusichka/models/item/capacitor_neutronium.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Capacitorinfinity",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capacitor_infinity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/CapacitorinfinityItem.java",
+          "src/main/resources/assets/savusichka/models/item/capacitor_infinity.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Neutroniumcaparitorcraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "neutroniumcaparitorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/neutroniumcaparitorcraft.json"
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Ofoliotsummon",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ofoliotsummon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/ofoliotsummon.json"
+        ]
+      },
+      "path": "~/Recipes/Occultism"
+    },
+    {
+      "name": "Ominerfoliotget",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ominerfoliotget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/ominerfoliotget.json"
+        ]
+      },
+      "path": "~/Recipes/Occultism"
+    },
+    {
+      "name": "NeutronicsolarpanelObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutronicsolarpanel_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/procedures/NeutronicsolarpanelObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "NeutronicsolarpanelPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutronicsolarpanel_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/procedures/NeutronicsolarpanelPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Neutronicsolarpanel",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neutronic_solarpanel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/block/NeutronicsolarpanelBlock.java",
+          "src/main/resources/assets/savusichka/models/block/neutronic_solarpanel.json",
+          "src/main/resources/assets/savusichka/models/item/neutronic_solarpanel.json",
+          "src/main/resources/assets/savusichka/blockstates/neutronic_solarpanel.json",
+          "src/main/java/net/mcreator/savusichka/block/entity/NeutronicsolarpanelBlockEntity.java"
+        ]
+      },
+      "path": "~/Recipes/Sovusia"
     }
   ],
   "variable_elements": [],
@@ -815,10 +976,11 @@
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
       "item.savusichka.zincsingularity": "Zincsingularity",
-      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
+      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "item.savusichka.rubber": "Rubber",
+      "item.savusichka.capacitor_neutronium": "Neutronium capacitor",
       "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.bloody_steel_energized": "Bloody steel energized",
@@ -827,16 +989,19 @@
       "item.savusichka.infinitycore": "Infinity core",
       "item.savusichka.imossive_dust": "Imossive dust",
       "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
+      "item.savusichka.capacitor_infinity": "Infinity capacitor",
+      "block.savusichka.neutronic_solarpanel": "Neutronic solar panel",
       "item.savusichka.andesitesingularity": "Andesitesingularity"
     },
     "en_us": {
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
       "item.savusichka.zincsingularity": "Zincsingularity",
-      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
+      "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "item.savusichka.rubber": "Rubber",
+      "item.savusichka.capacitor_neutronium": "Neutronium capacitor",
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.bloody_steel_energized": "Bloody steel energized",
@@ -845,6 +1010,8 @@
       "item.savusichka.infinitycore": "Infinity core",
       "item.savusichka.imossive_dust": "Imossive dust",
       "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
+      "item.savusichka.capacitor_infinity": "Infinity capacitor",
+      "block.savusichka.neutronic_solarpanel": "Neutronic solar panel",
       "item.savusichka.andesitesingularity": "Andesitesingularity"
     }
   },
@@ -896,6 +1063,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Occultism",
+            "children": []
           }
         ]
       },

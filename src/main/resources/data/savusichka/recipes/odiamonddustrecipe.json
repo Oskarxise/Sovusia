@@ -21,8 +21,8 @@
   },
   "result": {
     "tag": "forge:dusts/diamond",
-    "count": 1
+    "count": 2
   },
-  "crushing_time": 160,
+  "crushing_time": 200,
   "ignore_crushing_multiplier": false
 }
