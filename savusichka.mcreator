@@ -776,6 +776,36 @@
         ]
       },
       "path": "~/Recipes/occultism"
+    },
+    {
+      "name": "Soulstainedsteelsingularity",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulstainedsteelsingularity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/savusichka/models/item/soulstainedsteelsingularity.json",
+          "src/main/java/net/mcreator/savusichka/item/SoulstainedsteelsingularityItem.java"
+        ]
+      },
+      "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Zincsingularity",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zincsingularity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/ZincsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/zincsingularity.json"
+        ]
+      },
+      "path": "~/Items/Singularities"
     }
   ],
   "variable_elements": [],
@@ -784,7 +814,9 @@
     "ru_ru": {
       "item.savusichka.awekeneddraconiumsingularity": "Awekeneddraconiumsingularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "item.savusichka.zincsingularity": "Zincsingularity",
       "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
+      "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "item.savusichka.rubber": "Rubber",
       "item.savusichka.neutroniumcrystal": "Нейтрокристалл",
@@ -800,7 +832,9 @@
     "en_us": {
       "item.savusichka.awekeneddraconiumsingularity": "Awekened draconium singularity",
       "item.savusichka.neutroniumcore": "Neutronium core",
+      "item.savusichka.zincsingularity": "Zincsingularity",
       "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
+      "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "item.savusichka.rubber": "Rubber",
       "item.savusichka.neutroniumcrystal": "Neutronium crystal",
@@ -827,6 +861,10 @@
         ]
       },
       {
+        "name": "commands",
+        "children": []
+      },
+      {
         "name": "Recipes",
         "children": [
           {
@@ -839,15 +877,15 @@
             ]
           },
           {
+            "name": "Malum",
+            "children": []
+          },
+          {
             "name": "create",
             "children": []
           },
           {
             "name": "Draconic",
-            "children": []
-          },
-          {
-            "name": "Malum",
             "children": []
           },
           {
@@ -858,19 +896,11 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "occultism",
-            "children": []
           }
         ]
       },
       {
         "name": "Blocks",
-        "children": []
-      },
-      {
-        "name": "commands",
         "children": []
       }
     ]
