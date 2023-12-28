@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.savusichka.init.SavusichkaModTabs;
 import net.mcreator.savusichka.init.SavusichkaModItems;
 import net.mcreator.savusichka.init.SavusichkaModBlocks;
+import net.mcreator.savusichka.init.SavusichkaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,6 +48,8 @@ public class SavusichkaMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SavusichkaModBlocks.REGISTRY.register(bus);
 		SavusichkaModItems.REGISTRY.register(bus);
+
+		SavusichkaModBlockEntities.REGISTRY.register(bus);
 
 	}
 

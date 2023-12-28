@@ -19,11 +19,13 @@ import net.mcreator.savusichka.item.SoulstainedsteelsingularityItem;
 import net.mcreator.savusichka.item.RubberItem;
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
+import net.mcreator.savusichka.item.NeutroniumcapacitorItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
 import net.mcreator.savusichka.item.ImossivedustItem;
 import net.mcreator.savusichka.item.FluixcrystalsingularityItem;
 import net.mcreator.savusichka.item.DraconiumsingularityItem;
 import net.mcreator.savusichka.item.CertusquartzcrystalsingularityItem;
+import net.mcreator.savusichka.item.CapacitorinfinityItem;
 import net.mcreator.savusichka.item.BloodysteelenergizedItem;
 import net.mcreator.savusichka.item.AwekeneddraconiumsingularityItem;
 import net.mcreator.savusichka.item.AndesitesingularityItem;
@@ -38,6 +40,8 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> INFINITYCORE = REGISTRY.register("infinitycore", () -> new InfinitycoreItem());
 	public static final RegistryObject<Item> ALPHSTALSINGULARITY = REGISTRY.register("alphstalsingularity", () -> new AlphstalsingularityItem());
 	public static final RegistryObject<Item> DRACONIUMSINGULARITY = REGISTRY.register("draconiumsingularity", () -> new DraconiumsingularityItem());
+	public static final RegistryObject<Item> CAPACITOR_NEUTRONIUM = REGISTRY.register("capacitor_neutronium", () -> new NeutroniumcapacitorItem());
+	public static final RegistryObject<Item> CAPACITOR_INFINITY = REGISTRY.register("capacitor_infinity", () -> new CapacitorinfinityItem());
 	public static final RegistryObject<Item> TERRASTELLSINGULARITY = REGISTRY.register("terrastellsingularity", () -> new TerrastellsingularityItem());
 	public static final RegistryObject<Item> ANDESITESINGULARITY = REGISTRY.register("andesitesingularity", () -> new AndesitesingularityItem());
 	public static final RegistryObject<Item> RUBBER = REGISTRY.register("rubber", () -> new RubberItem());
@@ -49,6 +53,7 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> SOULSTAINEDSTEELSINGULARITY = REGISTRY.register("soulstainedsteelsingularity", () -> new SoulstainedsteelsingularityItem());
 	public static final RegistryObject<Item> FLUIXCRYSTALSINGULARITY = REGISTRY.register("fluixcrystalsingularity", () -> new FluixcrystalsingularityItem());
 	public static final RegistryObject<Item> CERTUSQUARTZCRYSTALSINGULARITY = REGISTRY.register("certusquartzcrystalsingularity", () -> new CertusquartzcrystalsingularityItem());
+	public static final RegistryObject<Item> NEUTRONIUM_SOLAR_PANEL = block(SavusichkaModBlocks.NEUTRONIUM_SOLAR_PANEL, SavusichkaModTabs.TAB_SOVUSIATAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
