@@ -1,13 +1,13 @@
 
 package net.mcreator.savusichka.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.savusichka.init.SavusichkaModTabs;
 
 public class CertusquartzcrystalsingularityItem extends Item {
-
 	public CertusquartzcrystalsingularityItem() {
 		super(new Item.Properties().tab(SavusichkaModTabs.TAB_SOVUSIATAB).stacksTo(64).rarity(Rarity.COMMON));
 	}
-
 }
