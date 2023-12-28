@@ -792,6 +792,36 @@
         ]
       },
       "path": "~/Recipes/Sovusia"
+    },
+    {
+      "name": "Fluixcrystalsingularity",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluixcrystalsingularity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/FluixcrystalsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/fluixcrystalsingularity.json"
+        ]
+      },
+      "path": "~/Items/Singularities"
+    },
+    {
+      "name": "Certusquartzcrystalsingularity",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "certusquartzcrystalsingularity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/savusichka/item/CertusquartzcrystalsingularityItem.java",
+          "src/main/resources/assets/savusichka/models/item/certusquartzcrystalsingularity.json"
+        ]
+      },
+      "path": "~/Items/Singularities"
     }
   ],
   "variable_elements": [],
@@ -809,10 +839,12 @@
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.bloody_steel_energized": "Bloody steel energized",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
+      "item.savusichka.fluixcrystalsingularity": "Fluixcrystalsingularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
       "item.savusichka.imossive_dust": "Imossive dust",
       "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
+      "item.savusichka.certusquartzcrystalsingularity": "Certusquartzcrystalsingularity",
       "item.savusichka.andesitesingularity": "Andesitesingularity"
     },
     "en_us": {
@@ -827,10 +859,12 @@
       "item.savusichka.draconiumsingularity": "Draconiumsingularity",
       "item.savusichka.bloody_steel_energized": "Bloody steel energized",
       "item.savusichka.alphstalsingularity": "Alphstal singularity",
+      "item.savusichka.fluixcrystalsingularity": "Fluixcrystalsingularity",
       "itemGroup.tabsovusiatab": "Sovusia",
       "item.savusichka.infinitycore": "Infinity core",
       "item.savusichka.imossive_dust": "Imossive dust",
       "block.savusichka.chargeddraconiumblock": "Chargeddraconiumblock",
+      "item.savusichka.certusquartzcrystalsingularity": "Certusquartzcrystalsingularity",
       "item.savusichka.andesitesingularity": "Andesitesingularity"
     }
   },
