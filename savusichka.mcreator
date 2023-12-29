@@ -1011,6 +1011,48 @@
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "BLOODAlchemicalreactionchamberrecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_alchemicalreactionchamberrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/blood_alchemicalreactionchamberrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODalchemytablerecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dalchemytablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dalchemytablerecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODritualkniferecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dritualkniferecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dritualkniferecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
     }
   ],
   "variable_elements": [],
@@ -1030,10 +1072,12 @@
       "item.savusichka.draconiumsingularity": "Дракониевая сингулярность",
       "item.savusichka.bloody_steel_energized": "Окровавленная энергосталь",
       "item.savusichka.alphstalsingularity": "Альф-сталевая сингулярность",
+      "item.savusichka.fluixcrystalsingularity": "Fluixcrystalsingularity",
       "itemGroup.tabsovusiatab": "Совусия",
       "item.savusichka.infinitycore": "Ядро бесконечности",
       "item.savusichka.imossive_dust": "Имоссиевая пыль",
       "block.savusichka.chargeddraconiumblock": "Заряженый дракониевый блок",
+      "item.savusichka.certusquartzcrystalsingularity": "Certusquartzcrystalsingularity",
       "item.savusichka.capacitor_infinity": "Бесконечный конденсатор",
       "item.savusichka.andesitesingularity": "Андезитовая сингулярность"
     },
@@ -1116,6 +1160,10 @@
           },
           {
             "name": "Occultism",
+            "children": []
+          },
+          {
+            "name": "blood_magic",
             "children": []
           }
         ]

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "1": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "2": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "3": {
+      "item": "bloodmagic:infusedslate"
+    },
+    "5": {
+      "item": "bloodmagic:infusedslate"
+    },
+    "6": {
+      "item": "create:andesite_alloy_block""
+    },
+    "7": {
+      "item": "powah:furnator_starter"
+    },
+    "8": {
+      "item": "create:andesite_alloy_block"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:alchemicalreactionchamber",
+    "count": 1
+  }
+}

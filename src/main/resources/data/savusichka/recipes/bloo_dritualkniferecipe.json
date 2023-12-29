@@ -1,0 +1,41 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft_with_spirit_name",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "pentacle_id": "occultism:craft_afrit",
+  "duration": 60,
+  "ritual_dummy": {
+    "item": "occultism:ritual_dummy/craft_infused_pickaxe"
+  },
+  "ingredients": [
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "ae2:charged_certus_quartz_crystal"
+    },
+    {
+      "item": "malum:soul_stained_steel_sword"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "alexsmobs:blood_sac"
+    },
+    {
+      "item": "mysticalagriculture:tertium_essence"
+    },
+    {
+      "item": "occultism:otherworld_log"
+    }
+  ],
+  "result": {
+    "item": "bloodmagic:sacrificialdagger"
+  }
+}

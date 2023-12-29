@@ -2,8 +2,8 @@
   "item.savusichka.awekeneddraconiumsingularity": "Пробуждённая дракониевая сингулярность",
   "item.savusichka.neutroniumcore": "Нейтрониевое ядро",
   "item.savusichka.zincsingularity": "Цинковая сингулярность",
-  "block.savusichka.bloody_steel_energized_block": "Блок окровавленной энергостали",
   "item.savusichka.soulstainedsteelsingularity": "Духосталевая сингулярность",
+  "block.savusichka.bloody_steel_energized_block": "Блок окровавленной энергостали",
   "item.savusichka.terrastellsingularity": "Террасталевая сингулярность",
   "block.savusichka.neutronium_solar_panel": "Neutronium solar panel",
   "item.savusichka.rubber": "Резина",
@@ -12,10 +12,12 @@
   "item.savusichka.draconiumsingularity": "Дракониевая сингулярность",
   "item.savusichka.bloody_steel_energized": "Окровавленная энергосталь",
   "item.savusichka.alphstalsingularity": "Альф-сталевая сингулярность",
+  "item.savusichka.fluixcrystalsingularity": "Fluixcrystalsingularity",
   "itemGroup.tabsovusiatab": "Совусия",
   "item.savusichka.infinitycore": "Ядро бесконечности",
   "item.savusichka.imossive_dust": "Имоссиевая пыль",
   "block.savusichka.chargeddraconiumblock": "Заряженый дракониевый блок",
+  "item.savusichka.certusquartzcrystalsingularity": "Certusquartzcrystalsingularity",
   "item.savusichka.capacitor_infinity": "Бесконечный конденсатор",
   "item.savusichka.andesitesingularity": "Андезитовая сингулярность"
 }

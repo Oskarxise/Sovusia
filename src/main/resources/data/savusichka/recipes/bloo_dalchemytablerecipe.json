@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_bottle"
+    },
+    "1": {
+      "item": "occultism:gold_dust"
+    },
+    "2": {
+      "item": "minecraft:feather"
+    },
+    "3": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "4": {
+      "item": "savusichka:bloody_steel_energized"
+    },
+    "5": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "6": {
+      "item": "create:brass_block"
+    },
+    "7": {
+      "item": "bloodmagic:reinforcedslate"
+    },
+    "8": {
+      "item": "create:brass_block"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:alchemytable",
+    "count": 1
+  }
+}
