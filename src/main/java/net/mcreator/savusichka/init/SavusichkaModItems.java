@@ -22,7 +22,9 @@ import net.mcreator.savusichka.item.NeutroniumcoreItem;
 import net.mcreator.savusichka.item.NeutroniumcapacitorItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
 import net.mcreator.savusichka.item.ImossivedustItem;
+import net.mcreator.savusichka.item.FluixcrystalsingularityItem;
 import net.mcreator.savusichka.item.DraconiumsingularityItem;
+import net.mcreator.savusichka.item.CertusquartzcrystalsingularityItem;
 import net.mcreator.savusichka.item.CapacitorinfinityItem;
 import net.mcreator.savusichka.item.BloodysteelenergizedItem;
 import net.mcreator.savusichka.item.AwekeneddraconiumsingularityItem;
@@ -49,6 +51,8 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> CHARGEDDRACONIUMBLOCK = block(SavusichkaModBlocks.CHARGEDDRACONIUMBLOCK, SavusichkaModTabs.TAB_SOVUSIATAB);
 	public static final RegistryObject<Item> CAPACITOR_NEUTRONIUM = REGISTRY.register("capacitor_neutronium", () -> new NeutroniumcapacitorItem());
 	public static final RegistryObject<Item> CAPACITOR_INFINITY = REGISTRY.register("capacitor_infinity", () -> new CapacitorinfinityItem());
+	public static final RegistryObject<Item> FLUIXCRYSTALSINGULARITY = REGISTRY.register("fluixcrystalsingularity", () -> new FluixcrystalsingularityItem());
+	public static final RegistryObject<Item> CERTUSQUARTZCRYSTALSINGULARITY = REGISTRY.register("certusquartzcrystalsingularity", () -> new CertusquartzcrystalsingularityItem());
 	public static final RegistryObject<Item> NEUTRONIUM_SOLAR_PANEL = block(SavusichkaModBlocks.NEUTRONIUM_SOLAR_PANEL, SavusichkaModTabs.TAB_SOVUSIATAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
