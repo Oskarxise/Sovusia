@@ -4,7 +4,7 @@
   "activation_item": {
     "item": "occultism:book_of_binding_bound_djinni"
   },
-  "pentacle_id": "occultism:craft_afrit",
+  "pentacle_id": "occultism:summon_afrit",
   "duration": 60,
   "ritual_dummy": {
     "item": "occultism:ritual_dummy/craft_infused_pickaxe"

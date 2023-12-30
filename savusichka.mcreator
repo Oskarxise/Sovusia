@@ -1066,6 +1066,86 @@
         ]
       },
       "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODlivingbootsrecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dlivingbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dlivingbootsrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODRitualstonerecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_ritualstonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/blood_ritualstonerecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODmasteryritualctonerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dmasteryritualctonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dmasteryritualctonerecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODBloodyaltarrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_bloodyaltarrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/blood_bloodyaltarrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODdaggerofsacrificerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_ddaggerofsacrificerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_ddaggerofsacrificerecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODsoulforgerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dsoulforgerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dsoulforgerecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
     }
   ],
   "variable_elements": [],
@@ -1100,8 +1180,8 @@
       "item.savusichka.neutroniumcore": "Neutronium core",
       "item.savusichka.zincsingularity": "Zincsingularity",
       "item.savusichka.infinitysingularity": "Infinitysingularity",
-      "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
       "block.savusichka.bloody_steel_energized_block": "Bloody steel energized block",
+      "item.savusichka.soulstainedsteelsingularity": "Soulstainedsteelsingularity",
       "item.savusichka.terrastellsingularity": "Terrastellsingularity",
       "block.savusichka.neutronium_solar_panel": "Neutronium solar panel",
       "item.savusichka.rubber": "Rubber",

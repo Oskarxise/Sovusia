@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "malum:sacred_spirit"
+    },
+    "B": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "C": {
+      "item": "malum:runewood_totem_base"
+    },
+    "D": {
+      "item": "malum:block_of_cursed_grit"
+    },
+    "E": {
+      "item": "powah:steel_energized"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:altar"
+  }
+}

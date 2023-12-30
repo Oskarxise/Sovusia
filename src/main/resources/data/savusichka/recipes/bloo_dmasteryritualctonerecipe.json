@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABD",
+    "BOB",
+    "DBA"
+  ],
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:tertium_block"
+    },
+    "B": {
+      "item": "bloodmagic:ritualstone"
+    },
+    "O": {
+      "type": "bloodmagic:bloodorb",
+      "orb_tier": 3
+    },
+    "D": {
+      "item": "draconicevolution:draconium_ingot"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:masterritualstone"
+  }
+}

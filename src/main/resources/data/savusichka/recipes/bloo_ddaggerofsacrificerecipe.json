@@ -1,0 +1,42 @@
+{
+  "type": "malum:spirit_infusion",
+  "input": {
+    "item": "bloodmagic:sacrificialdagger",
+    "count": 1
+  },
+  "output": {
+    "item": "bloodmagic:daggerofsacrifice",
+    "count": 1
+  },
+  "extra_items": [
+    {
+      "item": "bloodmagic:soulscythe",
+      "count": 1
+    },
+    {
+      "item": "mysticalagriculture:tertium_gemstone",
+      "count": 1
+    },
+    {
+      "item": "malum:hallowed_gold_ingot",
+      "count": 1
+    },
+    {
+      "item": "bloodmagic:life_essence_bucket",
+      "count": 1
+    }
+  ],
+  "spirits": [
+    {
+      "type": "eldritch",
+      "count": 2
+    },
+    {
+      "type": "wicked",
+      "count": 2
+    },
+    {
+      "type": "sacred",
+      "count": 2
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "DED"
+  ],
+  "key": {
+    "A": {
+      "item": "occultism:iesnium_ingot"
+    },
+    "B": {
+      "item": "malum:infernal_spirit"
+    },
+    "C": {
+      "item": "bloodmagic:blankslate"
+    },
+    "D": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "E": {
+      "item": "bloodmagic:basemonstersoul"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:soulforge"
+  }
+}

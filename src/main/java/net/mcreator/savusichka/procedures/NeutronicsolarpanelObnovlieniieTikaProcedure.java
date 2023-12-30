@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class NeutronicsolarpanelObnovlieniieTikaProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world.canSeeSkyFromBelowWater(new BlockPos(x, y, z)) && world instanceof Level _lvl1 && _lvl1.isDay() && !world.getLevelData().isThundering()) {
+		if (world.canSeeSkyFromBelowWater(new BlockPos(x, y, z)) && world instanceof Level _lvl1 && _lvl1.isDay() && !world.getLevelData().isThundering() && !world.getLevelData().isRaining()) {
 			{
 				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 				int _amount = 1000000;

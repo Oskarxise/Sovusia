@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ROR",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "ae2:smooth_sky_stone_block"
+    },
+    "B": {
+      "item": "occultism:burnt_otherstone"
+    },
+    "O": {
+      "type": "bloodmagic:bloodorb",
+      "orb_tier": 2
+    },
+    "R": {
+      "item": "bloodmagic:infusedslate"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:ritualstone"
+  }
+}
