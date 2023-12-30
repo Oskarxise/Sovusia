@@ -1024,6 +1024,48 @@
         ]
       },
       "path": "~/Items/Singularities"
+    },
+    {
+      "name": "BLOODalchemytablerecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dalchemytablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dalchemytablerecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODAlchemicalreactionchamberrecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_alchemicalreactionchamberrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/blood_alchemicalreactionchamberrecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
+    },
+    {
+      "name": "BLOODritualkniferecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bloo_dritualkniferecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/savusichka/recipes/bloo_dritualkniferecipe.json"
+        ]
+      },
+      "path": "~/Recipes/blood_magic"
     }
   ],
   "variable_elements": [],
@@ -1108,6 +1150,10 @@
           },
           {
             "name": "Avaritia",
+            "children": []
+          },
+          {
+            "name": "blood_magic",
             "children": []
           },
           {
