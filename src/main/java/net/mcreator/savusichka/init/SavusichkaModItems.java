@@ -20,6 +20,7 @@ import net.mcreator.savusichka.item.RubberItem;
 import net.mcreator.savusichka.item.NeutroniumcrystalItem;
 import net.mcreator.savusichka.item.NeutroniumcoreItem;
 import net.mcreator.savusichka.item.NeutroniumcapacitorItem;
+import net.mcreator.savusichka.item.InfinitysingularityItem;
 import net.mcreator.savusichka.item.InfinitycoreItem;
 import net.mcreator.savusichka.item.ImossivedustItem;
 import net.mcreator.savusichka.item.FluixcrystalsingularityItem;
@@ -54,6 +55,7 @@ public class SavusichkaModItems {
 	public static final RegistryObject<Item> FLUIXCRYSTALSINGULARITY = REGISTRY.register("fluixcrystalsingularity", () -> new FluixcrystalsingularityItem());
 	public static final RegistryObject<Item> CERTUSQUARTZCRYSTALSINGULARITY = REGISTRY.register("certusquartzcrystalsingularity", () -> new CertusquartzcrystalsingularityItem());
 	public static final RegistryObject<Item> NEUTRONIUM_SOLAR_PANEL = block(SavusichkaModBlocks.NEUTRONIUM_SOLAR_PANEL, SavusichkaModTabs.TAB_SOVUSIATAB);
+	public static final RegistryObject<Item> INFINITYSINGULARITY = REGISTRY.register("infinitysingularity", () -> new InfinitysingularityItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
